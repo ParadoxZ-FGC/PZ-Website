@@ -1,0 +1,7 @@
+body {
+    background-image: url(../img/bg/cerulean_cape.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -215px;
+    background-attachment: fixed;
+}
