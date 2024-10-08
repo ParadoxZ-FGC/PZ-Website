@@ -1,5 +1,4 @@
 body {
-    font-family: "Trebuchet MS";
     color: white;
     margin: 0;
 }
@@ -7,6 +6,20 @@ body {
     font-family: pokeGB;
     src: url(../fonts/PokemonGb-RAeo.ttf);
 }
+.inconsolata-normal {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.inconsolata-medium {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 125;
+  }
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -18,110 +31,87 @@ body {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
-    margin-bottom: 150px;
-    position: fixed;
+    margin-bottom: 50px;
+    background-color: black;
     top: 0;
     left: 0;
 }
 .flex-header > div {
-    background-color: black;
-    box-shadow: 0px 8px 16px 0px black;
     text-align: center;
 }
 
-#logo {
-    width: 250px;
-    height: 200px;
-    padding-top: 20px;
-    border-bottom-right-radius: 40px;
+#porygon {
+    width: 100px;
+    height: 140px;
+    margin: 40px 0 40px 40px;
 }
-#logo > h1 {
-    color: white;
-    font-family: pokeGB;
-    font-size: 14px;
+#name {
+    width: 400px;
+    height: 250px;
+    margin: 20px 2%;
+}
+#name > h1 {
+    padding: 30px 0 5px 0;
+    background-color: white;
+    color: black;
+    font-size: 50px;
     text-shadow: 2px 2px 5px gray;
 }
-#logo > img {
-    width: 85px;
+#first {
+    width: 50%;
+}
+#last {
+    width: 60%;
+    margin: -50px 0 0 auto;
 }
 
+
 h1 > a {
-    font-family: pokeGB;
-    font-size: 24px;
-    color: white;
+    font-size: 26px;
+    color: black;
     text-decoration: none;
 }
 .nav-container {
     display: flex;
-    width:65%;
+    width:45%;
     height:100px;
-    border-bottom-right-radius: 40px;
+    margin: 30px 5%;
 }
 .nav {
     text-align: center;
     width: 300px;
     height: 100px;
-    transition: height 0.5s ease, font-size 0.5s ease;
+    background-color: white;
+    transition: font-size 0.5s ease;
 }
 .nav:hover {
-    height: 120px;
-    background-color: black;
-    font-size: large;
+    font-size: 34px;
     box-shadow: 0px 8px 16px 0px black;
 }
-#home:hover {
-    border-bottom-right-radius: 30px;
+#home {
+    position: relative;
+    top: 0;
+    right: 0;
 }
-#about:hover, #other:hover, #projects:hover {
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+#projects {
+    position: relative;
+    top: 50px;
+    right: 40px;
+}
+#about {
+    position: relative;
+    top: 20px;
+    right: 60px;
 }
 
-/* FIX THE OTHER SECTION ========================================= */
-#other {
-    position: relative;
-    display: inline-block;
-}
-#other > h1 {
-    width: 75px;
-    margin-left: 40%;
-}
-.other-content-box {
-    display: none;
-    position: absolute;
-    background-color: black;
-    width: 94%;
-    padding: 12px;
-    z-index: 1;
-    box-shadow: 0px 8px 16px 0px black;
-}
-#other:hover .other-content-box {
-    display: block;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-h1.other-content {
-    border-radius: 6px;
-    transition: background-color 0.5s ease;
-}
-h1.other-content > a {
-    transition: color 0.5s ease;
-}
-h1.other-content:hover {
-    background-color: white;
-}
-h1.other-content:hover > a {
-    color: black;
-}
 
 .audio-theme {
-    position: fixed;
-    top: 0;
+    position: static;
     right: 0;
     width: 140px;
     height: 100px;
+    
     padding: 16px;
-    border-bottom-left-radius: 40px;
 }
 select {
     margin-top: 6px;
@@ -130,8 +120,7 @@ select, option {
     height: 30px;
     float: right;
     padding: 4px;
-    border-radius: 4px;
-    font-family: "Trebuchet MS";
+    border-style: none;
 }
 
 
