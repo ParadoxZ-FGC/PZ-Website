@@ -1,37 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/global.css"> 
-        <script type="text/javascript" src="ja.js"></script>
-        <link rel="icon" type="image/gif" href="archive/img/porygon-z.gif">
-        <title>Noah Strekow ~ Portfolio</title>
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/projects.css">
+        <link rel="icon" type="image/gif" href="./img/crest_of_flames.webp">
+        <script type="text/javascript" src="./js/global.js"></script>
+        <title>NS ~ Portfolio</title>
     </head>
-
     <body>
         <div id="page-container">
             <div class="header">
                 <img src="img/feth_art_cover.jpg" class="header"/>
             </div>
-
-            <hr>
-
+            <hr id="big-div">
             <div id="body">
                 <div id="left-menu">
-                    <a href="index.html">&emsp;Home</a>
-                    <a href="#" id="current">&emsp;Projects</a>
-                    <a href="about.html">&emsp;About Me</a>
-                    <a href="contact.html">&emsp;Contact Me</a>
-                    <a href="resume.html">&emsp;Resume</a>
+                    <a href="index.html#big-div">&emsp;Home</a>
+                    <a href="#big-div" id="current">&emsp;Projects</a>
+                    <a href="about.html#big-div">&emsp;About Me</a>
+                    <a href="contact.html#big-div">&emsp;Contact Me</a>
+                    <a href="resume.html#big-div">&emsp;Resume</a>
                 </div>
                 <div id="right-info">
                     <h1>Projects</h1>
-                    <p>Text goes here</p>
+                    <p>If you would like to browse my repositories, visit my <a href="https://github.com/ParadoxZ-FGC">GitHub</a>,
+                    otherwise, you can find all of my major projects listed on this page in the form of mini cards for your viewing pleasure. 
+                    Enjoy!</p>
+                    <br><hr><br>
+                    <div id="project-container">
+                        <div>
+                            <h1><a onclick="openNewBackgroundTab('./index.html')">Portfolio Website</a></h1>
+                            <i>~ 2024-Present</i>
+                            <hr align="left">
+                            <p>Do I really need to explain this?<br><br>
+                            You're already here...</p>
+                        </div>
+                        <div>
+                            <h1><a onclick="openNewBackgroundTab('http://www.github.com/ParadoxZ-FGC/Raycaster-Project')">Raycaster Game</a></h1>
+                            <i> ~ Feb. 2025</i>
+                            <hr align="left">
+                            <p>test</p>
+                        </div>
+                        <div>
+                            <h1><a onclick="openNewBackgroundTab('http://www.github.com/ParadoxZ-FGC/3D-Graphics-Engine')">3D Graphics Engine</a></h1>
+                            <i>~ Oct. 2024</i>
+                            <hr align="left">
+                            <p>test</p>
+                        </div>
+                        <div>
+                            <h1><a onclick="openNewBackgroundTab('http://www.github.com/ParadoxZ-FGC/WCTC-MMR')">eSports MMR System</a></h1>
+                            <i>~ Jan. 2024</i>
+                            <hr align="left">
+                            <p>test</p>
+                        </div>
+                        <div>
+                            <h1><a onclick="openNewBackgroundTab('http://www.github.com/ParadoxZ-FGC/Pokemon-VGC-Analyzer')">Pokemon VGC Analyzer</a></h1>
+                            <i>~ Jan. 2024</i>
+                            <hr align="left">
+                            <p>test</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
             <footer>
+                <audio id="bgm" src="audio/sirius.mp3" preload="auto"></audio>
                 <p><small><em>Webpage developed by Noah Strekow, hosted by MTU's Linux Users Group | All art and music owned by Nintendo, &copy; 1995 - 2025 Nintendo/Intelligent Systems</em></small></p>
             </footer>
         </div>

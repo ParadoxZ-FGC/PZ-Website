@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/global.css"> 
-        <script type="text/javascript" src="ja.js"></script>
-        <link rel="icon" type="image/gif" href="archive/img/porygon-z.gif">
-        <title>Noah Strekow ~ Portfolio</title>
+        <link rel="stylesheet" href="./css/global.css"> 
+        <link rel="stylesheet" href="./css/resume.css"> 
+        <link rel="icon" type="image/gif" href="./img/crest_of_flames.webp">
+        <script type="text/javascript" src="./js/global.js"></script>
+        <title>NS ~ Portfolio</title>
     </head>
-
     <body>
         <div id="page-container">
             <div class="header">
                 <img src="img/feth_art_cover.jpg" class="header"/>
             </div>
-
-            <hr>
-
+            <hr id="big-div">
             <div id="body">
                 <div id="left-menu">
-                    <a href="index.html">&emsp;Home</a>
-                    <a href="projects.html">&emsp;Projects</a>
-                    <a href="about.html">&emsp;About Me</a>
-                    <a href="contact.html">&emsp;Contact Me</a>
-                    <a href="#" id="current">&emsp;Resume</a>
+                    <a href="index.html#big-div">&emsp;Home</a>
+                    <a href="projects.html#big-div">&emsp;Projects</a>
+                    <a href="about.html#big-div">&emsp;About Me</a>
+                    <a href="contact.html#big-div">&emsp;Contact Me</a>
+                    <a href="#big-div" id="current">&emsp;Resume</a>
                 </div>
                 <div id="right-info">
                     <h1>Resume</h1>
-                    <p>Text goes here</p>
+                    <p>Or visit my LinkedIn/GitHub, linked at the top of my resume.</p>
+                    <hr><br>
+                    <embed src="./misc/resume.pdf" type="application/pdf" id="resume">
+                        <!-- TRY THIS ANOTHER TIME
+                        <canvas id="pdf-canvas" style="border:1px solid black;"></canvas>
+                        <script src="./js/pdf.mjs"></script>
+                        <script src="./js/pdf.worker.mjs"></script>
+                        <script src="./js/ja.js"></script>
+                        -->
                 </div>
             </div>
-
             <footer>
+                <audio id="bgm" src="audio/sirius.mp3" preload="auto"></audio>
                 <p><small><em>Webpage developed by Noah Strekow, hosted by MTU's Linux Users Group | All art and music owned by Nintendo, &copy; 1995 - 2025 Nintendo/Intelligent Systems</em></small></p>
             </footer>
         </div>

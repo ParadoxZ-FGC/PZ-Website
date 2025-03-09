@@ -1,0 +1,14 @@
+/* ============ RESUME ============ */
+#right-info {
+    height: 1800px;
+    padding-top: 0;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+#resume {
+    width: 100%;
+    height: 86%;
+    border: 6px outset #5a75c6;
+    border-radius: 10px;
+}

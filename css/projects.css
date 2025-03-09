@@ -1,0 +1,32 @@
+/* ============ RESUME ============ */
+#project-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 1000px;
+}
+
+#project-container > div {
+    width: 400px;
+    height: 400px;
+    padding: 10px 20px;
+    border: 4px inset #4950a2;
+    border-radius: 20px;
+    text-align: left;
+}
+
+
+#right-info a {
+    color: #be99bd;
+}
+#right-info a:visited {
+    color: #d2a6b0;
+}
+#right-info a:hover {
+    color: #e1b7bb;
+    text-shadow: 0 0 10px black;
+}
+#right-info a:active {
+    color: #4950a2;
+}
+
