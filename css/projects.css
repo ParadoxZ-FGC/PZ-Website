@@ -3,16 +3,25 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    height: 1000px;
+    
 }
 
 #project-container > div {
     width: 400px;
-    height: 400px;
+    height: auto;
     padding: 10px 20px;
+    margin: 10px 0;
     border: 4px inset #4950a2;
     border-radius: 20px;
     text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+hr.header {
+    width: 20%;
+    color: #4950a2;
 }
 
 
