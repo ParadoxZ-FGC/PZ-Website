@@ -1,0 +1,13 @@
+#art-grid {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#art-grid > img {
+    max-height: 300px;
+    width: auto;
+    align-self: center;
+    margin-bottom: 1em;
+}
