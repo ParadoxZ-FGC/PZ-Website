@@ -11,3 +11,10 @@
     align-self: center;
     margin-bottom: 1em;
 }
+
+@media only screen and (max-width: 600px) {
+    #art-grid > img {
+        max-width: 80%;
+        max-height: auto;
+    }
+}
