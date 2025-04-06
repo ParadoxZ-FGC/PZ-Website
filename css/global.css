@@ -95,7 +95,15 @@ a {
     border-radius: 20px;
     padding: 1em 3em;
 }
-
+@media only screen and (max-width: 600px) {
+    #right-info {
+        width: 100%;
+        margin: 0;
+        border: none;
+        border-top: 2px outset #be99bd;
+        border-bottom: 2px outset #be99bd;
+    }
+}
 
 footer {
     height: 4em;
