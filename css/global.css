@@ -99,6 +99,7 @@ a {
     #right-info {
         width: 100%;
         margin: 0;
+        border: none;
         border-top: 2px outset #be99bd;
         border-bottom: 2px outset #be99bd;
     }
