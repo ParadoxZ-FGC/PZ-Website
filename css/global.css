@@ -11,6 +11,9 @@ body {
     position: relative;
     min-height: 100vh;
 }
+a:hover {
+    cursor: pointer;
+}
 
 /*
 * Color scheme::after
@@ -66,7 +69,7 @@ a {
     
 }
 #left-menu > a:hover {
-    box-shadow: inset 0 0 30px #5a75c6;
+    box-shadow: inset 0 0 30px lavender;
     padding-left: 1em;
     animation: glow 1s ease-in-out infinite alternate;
 }
