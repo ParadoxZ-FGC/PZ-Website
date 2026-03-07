@@ -1,11 +1,31 @@
-#art-grid {
+#right-info {
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+#right-info > button {
+    padding: 10px;
+    font-family: nocturne, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #4950a2;
+    /*background-color: linear-gradient(90deg,rgba(90, 117, 198, 1) 0%, rgba(225, 183, 187, 1) 100%);*/
+    color: white;
+    font-size: x-large;
+    border-radius: 20px;
+    transition: background ease 0.5s;
+}
+#right-info > button:hover {
+    background: #5A75C6;
+}
+
+
+#display-grid {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#art-grid > img {
+#display-grid > img {
     max-height: 300px;
     width: auto;
     align-self: center;
@@ -13,7 +33,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    #art-grid > img {
+    #display-grid > img {
         max-width: 90%;
         max-height: auto;
     }

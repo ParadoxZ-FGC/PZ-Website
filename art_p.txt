@@ -1,0 +1,2 @@
+<img src="./img/art/p_fountain.jpg">
+<img src="./img/art/p_pier.jpg">

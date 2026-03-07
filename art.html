@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./css/art.css">
         <link rel="icon" type="image/gif" href="./img/crest_of_flames.webp">
         <script type="text/javascript" src="./js/global.js"></script>
+        <script type="text/javascript" src="./js/art.js"></script>
         <title>NS ~ Portfolio</title>
     </head>
     <body>
@@ -26,7 +27,11 @@
                 </div>
                 <div id="right-info">
                     <h1>Art</h1>
-                    <div id="art-grid">
+                    &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" onclick="loadI()">Illustrations</button>
+                    &nbsp;
+                    <button type="button" onclick="loadP()">Photography</button>
+                    <hr>
+                    <div id="display-grid">
                         <img src="./img/art/title.jpg">
                         <img src="./img/art/sunset_1.PNG">
                         <img src="./img/art/sunset_2.PNG">
@@ -45,7 +50,6 @@
                         <img src="./img/art/map_4.PNG">
                         <img src="./img/art/gamecube.PNG">
                         <img src="./img/art/aroura.JPG">
-                        
                         <img src="./img/art/p_fountain.jpg">
                         <img src="./img/art/p_pier.jpg">
                         <img src="./img/art/inabakumori.jpg">
@@ -54,7 +58,7 @@
             </div>
             <footer>
                 <audio id="bgm" src="audio/sirius.mp3" preload="auto" onload="play()" autoplay></audio>
-                <p><small><em>Webpage developed by Noah Strekow, hosted by MTU's Linux Users Group | All art and music owned by Nintendo, &copy; 1995 - 2025 Nintendo/Intelligent Systems</em></small></p>
+                <p><small><em>Webpage developed by Noah Strekow, hosted by MTU's Linux Users Group | Banner art and music owned by Nintendo, &copy; 1995 - 2025 Nintendo/Intelligent Systems</em></small></p>
             </footer>
         </div>
     </body>
