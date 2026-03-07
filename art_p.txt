@@ -1,2 +1,2 @@
-<img src="./img/art/p_fountain.jpg">
-<img src="./img/art/p_pier.jpg">
+<img src="./img/art/phot/fountain.jpg">
+<img src="./img/art/phot/pier.jpg">
