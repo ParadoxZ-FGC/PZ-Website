@@ -98,6 +98,16 @@ a {
     border: 2px outset #be99bd ;
     border-radius: 20px;
     padding: 1em 3em;
+    font-size: x-large;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: x-large;
+}
+p {
+    font-size: medium;
 }
 @media only screen and (max-width: 600px) {
     #right-info {

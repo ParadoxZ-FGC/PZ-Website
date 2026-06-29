@@ -1,12 +1,9 @@
 /* ============ RESUME ============ */
 #right-info {
-    height: 1800px;
-    padding-top: 0;
+    min-height: 1400px;
     align-content: center;
-    text-align: center;
-    font-size: x-large;
 }
-#resume {
+#pdf {
     width: 100%;
     height: 86%;
     border: 6px outset #5a75c6;

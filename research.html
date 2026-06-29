@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/resume.css">
         <link rel="icon" type="image/gif" href="./img/crest_of_flames.webp">
         <script type="text/javascript" src="./js/global.js"></script>
         <title>NS ~ Portfolio</title>
@@ -19,20 +20,22 @@
                     <a href="index.html#big-div">&emsp;Home</a>
                     <a href="projects.html#big-div">&emsp;Projects</a>
                     <a href="art.html#big-div">&emsp;Art</a>
-                    <a href="#big-div" id="current">&emsp;About Me</a>
-                    <a href="contact.html#big-div">&emsp;Contact Me</a>
+                    <a href="research.html#big-div" id="current">&emsp;Research</a>
                     <a href="resume.html#big-div">&emsp;Resume</a>
                 </div>
                 <div id="right-info">
-                    <h1>About Me</h1>
-                    <p>My name is Noah. Originally from Southern Wisconsin, I currently study Software Engineering and Cybersecurity as an undergraduate at Michigan Technological University.
-                        <br>I work for HubKonnect as an IT consultant and expect to work under faculity at Michigan Tech as a student researcher in cryptography during the summer of 2026.
-                        
-                    </p>
+                    <h1>Research</h1>
+                    <hr><br>
+                    <h2>Enabling Secure File-Centered Data Recovery with Trusted Hardware for Decentralized Archives</h2>
+                    <embed src="./misc/Cloud_Security.pdf" type="application/pdf" id="pdf">
+                    <hr>
+                    <h2>Impact of Virtual Reality on User Confidence in Remote Robot Operation</h2>
+                    <embed src="./misc/XR_Robot_Director.pdf" type="application/pdf" id="pdf">
+                    <hr>
                 </div>
             </div>
             <footer>
-                <audio id="bgm" src="audio/sirius.mp3" preload="auto"></audio>
+                <audio id="bgm" src="audio/sirius.mp3" preload="auto" onload="play()" autoplay></audio>
                 <p><small><em>Webpage developed by Noah Strekow, hosted by MTU's Linux Users Group | Banner art and music owned by Nintendo, &copy; 1995 - 2025 Nintendo/Intelligent Systems</em></small></p>
             </footer>
         </div>
