@@ -43,3 +43,27 @@ hr.header {
     color: #4950a2;
 }
 
+
+@media only screen and (max-width: 400px) {
+    .project-container > div {
+        width: 250px;
+        height: auto;
+        padding: 10px 20px;
+        margin: 10px 0;
+        border: 4px inset #4950a2;
+        border-radius: 20px;
+        text-align: left;
+        font-size: small;
+    }
+    .project-container h1 {
+        font-size: xx-large;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    hr.header {
+        width: 20%;
+        color: #4950a2;
+    }
+}
