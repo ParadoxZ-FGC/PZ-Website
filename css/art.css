@@ -1,8 +1,8 @@
-#right-info {
+#content {
     align-content: center;
     text-align: center;
 }
-#right-info > button {
+#content > button {
     padding: 10px;
     font-family: nocturne, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
     background: #4950a2;
@@ -12,7 +12,7 @@
     border-radius: 20px;
     transition: background ease 0.5s;
 }
-#right-info > button:hover {
+#content > button:hover {
     background: #5A75C6;
 }
 

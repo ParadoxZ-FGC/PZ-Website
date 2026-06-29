@@ -27,19 +27,19 @@ hr.header {
 }
 
 
-#right-info a {
+#content a {
     color: #be99bd;
     transition: 0.4s ease;
 }
-#right-info a:visited {
+#content a:visited {
     color: #5a75c6;
 }
-#right-info a:hover {
+#content a:hover {
     color: #e1b7bb;
     text-shadow: 0 0 10px #e1b7bb;
     cursor: pointer;
 }
-#right-info a:active {
+#content a:active {
     color: #4950a2;
 }
 
